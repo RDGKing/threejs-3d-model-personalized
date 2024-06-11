@@ -18,8 +18,6 @@ const params = {
 const assets = [
     'Fist Fight A',
     'Uppercut Jab',
-    'Flip Kick',
-    'Salsa Dancing',
     'Salsa Dancing 2'
 ];
 
