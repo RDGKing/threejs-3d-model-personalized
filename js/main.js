@@ -96,7 +96,7 @@ function init() {
 
 function loadAsset(asset) {
 
-    loader.load('models/fbx/' + asset + '.fbx', function (group) {
+    loader.load('models/fbx/' + encodeURIComponent(params.asset) + '.fbx', function (group) {
 
         if (object) {
 
